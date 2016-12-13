@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="final.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title></title>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body class="index" onload="loadArray();">
+	  <h1>Are You Ready To Workout??? </h1>
+      <div style="width:50%; float:right">
+          <p class="exercise"> The purpose of this suggustion page is to determine what kind of
+            workout you want!<p>
+          <p class="exercise"> The different workout options are: </p>
+              <li>Chest</li>
+              <li>Back</li>
+              <li>Shoulders</li>
+          <div class="center">
+    	      <label for="select1" class="col-sm-3 control-label ;">Type in selected muscle</label>
+            <div class="col-sm-2">
+    	      <input size="50" type="text" id="workout" class="form-control input-md"
+             placeholder="ex:chest" onchange= "determine()"/>
+    	          <span id="workout" class="control-label hidden-message">
+                  </span>
+    	    </div>
+    	</div>
+      <div>
+        <a class="push" href="end.html" onclick="saveArray();">SHOW ME MY OPTIONS!</a>
+      </div>
+      <div
+  </body>
+ </html>

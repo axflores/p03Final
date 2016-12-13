@@ -1,0 +1,22 @@
+.index{
+  background-color: color:blue; color:black;
+  background-image: url(http://previews.123rf.com/images/icetray/icetray1111/icetray111107793/11216810-gym-room-made-in-3d-Stock-Photo-gym-fitness-boxing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Impact, Charcoal, sans-serif;
+  text-emphasis-color: white;
+  font-size: 250%;
+}
+.end{
+    background-color: color:orange; color:white;
+  background: url(http://modelingwisdom.com/wp-content/uploads/2014/10/gym-background-1.jpg);
+  background-size: cover;
+  text-emphasis-color: white;
+  font-size: 250%;
+}
+
+.push{
+  display: inline;
+ text-decoration: none; color: black;
+    display: inline-block;
+}
